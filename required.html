@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Required</title>
+</head>
+<body>
+    Enter Your Name:
+    <input type="text" id="name">
+    <br>
+    Enter Ypur Email:
+    <input type="text" id="email">
+    <br>
+    Enter your Mobile:
+    <input type="number" id="number">
+    <br>
+    <input type="submit" onclick="check()">
+    <script>
+        function check(){
+            let name = document.getElementById('name').value
+            let email = document.getElementById('email').value
+            let number = document.getElementById('number').value
+            // window.alert(number)
+            if (name==''){
+                alert("Name Required")
+            }else{
+                alert("Valid Name")
+            }
+            if (email==''){
+                alert("Name Required")
+            }else{
+                alert("Valid email")
+            }
+            if (number==''){
+                alert("Number Required")
+            }else{
+                alert("Valid Number")
+            }
+        }
+    </script>
+    
+</body>
+</html>

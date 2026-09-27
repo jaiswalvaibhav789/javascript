@@ -1,0 +1,33 @@
+//wap to find the highest no. in a array.
+
+
+<html>
+<head>
+<script>
+const ar = [1,2,60,3,4,5,6,7,8,15,9,10,11,12];
+let l = ar.length;
+let d = ar[0];
+let e =ar[0];
+
+for (let i=0;i<l;i++){
+	if (d<ar[i]){
+		d=ar[i];
+	}
+
+}
+for (let i=0;i<l;i++){
+	if (e<ar[i]<d){
+		e=ar[i];
+	}
+
+}
+
+console.log(e);
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

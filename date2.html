@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <input type="date" id="d">
+
+    <button onclick="fun()">Print Date</button>
+
+    <script>
+        function fun(){
+            let a = document.getElementById('d')
+            let dt = new Date(a.value)
+            // document.write(a.value)
+            console.log(a.value)
+            console.log(dt.getMinutes())
+        }
+    </script>
+</body>
+</html>

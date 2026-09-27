@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input::placeholder
+
+    </style>
+</head>
+<body>
+    Enter Your Name:
+    <input type="text" id="name" >
+    <span id="name_er"></span>
+    <br>
+    Enter Ypur Email:
+    <input type="text" id="email">
+    <span id="email_er"></span>
+    <br>
+    Enter your Mobile:
+    <input type="number" id="number">
+    <span id="number_er"></span>
+    <br>
+    Enter Your Aadhar:
+    <input type="number" id="aadhar">
+    <span id="aadhar_er"></span>
+
+    <br>
+    <input type="submit" onclick="check()">
+
+    <script>
+        function check(){
+            let name = document.getElementById('name').value
+            let email = document.getElementById('email').value
+            let number = document.getElementById('number').value
+            let aadhar = document.getElementById('aadhar').value
+            // alert(name)
+            // alert(email)
+            // alert(number)
+            // alert(aadhar)
+
+            if(name.length>=3 && name.length<=60){
+                alert("name is valid")
+            }else{
+                alert("name is invalid")
+                document.getElementById('name').style.border='1px solid red'
+                document.getElementById('name').style.color="red"
+                document.getElementById('name').placeholder="Inavlid Name"
+                document.getElementById('name_er').innerHTML="Invalid Name *"
+                document.getElementById('name_er').style.color='red'
+                
+            }
+            if(email.length>=5 && email.length<=60){
+                alert("email is valid")
+               
+            }else{
+                alert("email is invalid")
+                document.getElementById('email').style.border='1px solid red'
+                document.getElementById('email').style.color="red"
+                document.getElementById('email').placeholder="Inavlid email"
+                document.getElementById('email_er').innerHTML="Invalid email *"
+                document.getElementById('email_er').style.color='red'
+            }
+            if(number.length==10){
+                alert("number valid")
+            }else{
+                alert("number invalid")
+                document.getElementById('number').style.border='1px solid red'
+                document.getElementById('number').style.color="red"
+                document.getElementById('number').placeholder="Inavlid number"
+                document.getElementById('number_er').innerHTML="Invalid number *"
+                document.getElementById('number_er').style.color='red'
+            }
+            if(aadhar.length==12){
+                alert("aadhar is valid")
+            }else{
+                alert("aadhar is invalid")
+                document.getElementById('number').style.border='1px solid red'
+                document.getElementById('number').style.color="red"
+                document.getElementById('number').placeholder="Inavlid number"
+                document.getElementById('number_er').innerHTML="Invalid number *"
+                document.getElementById('number_er').style.color='red'
+            }
+        }
+    </script>
+
+</body>
+</html>

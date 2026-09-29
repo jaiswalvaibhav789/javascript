@@ -15,13 +15,13 @@ Javascript =>
 	1.BOM =>Browser Object Model
 		Browser OBject Model is used to handle functionalities.
 	2.DOM =>Document Object 
-		Document OBject Model is used to handle the User Interfrace(frontend) document related functionalities.
+		Document OBject Model is used to handle the User Interface(frontend) document related functionalities.
 		
 	Javascript is a interpreted and Highly case sensitive language.
 	It follows the camel case format by Default.
 	Ex-: hellWorld,pushkarSingh,getElementById etc.
 	
-	ECMA => (European Computer Manifacturing Association.)
+	ECMA => (European Computer Manufacturing Association.)
 		In 1997 js officially being Standardise , Called as ECMA Script.
 		In 2015 js released its major update known as ES-6 (ECMA Script).
 	==> Javascript is a dynamic symantic language.
@@ -36,7 +36,7 @@ Javascript =>
 	Rule for variable declartion
 		1. Variable started with aplhabet or underscore.
 		2. Variable can be alpha numeric.
-		3. Variables are case sensitive.
+		3. Variables are case sensitive.										
 		4. variables cannot be any special character.
 	1. var =>
 		var is a old type to declare any variable. In var we can do with a
@@ -95,7 +95,7 @@ Operators=>
 		
 Conditional Statements=> 
 	Conditional Statements are used to execute the block code on the particular condition.
-	It helps to take th decision on the behalf of condition in programming.
+	It helps to take the decision on the behalf of condition in programming.
 		
 		1.if 
 		2.ladder if

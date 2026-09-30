@@ -12,3 +12,10 @@
     3.callbacks
     4.promises
     5.async/await
+
+
+    #Promises =>
+    Promises are used to handle asynchronous task in js. In the promises there are three major state occured.
+    1.fullfill
+    2.pending
+    3.rejected

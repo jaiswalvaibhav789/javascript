@@ -1,9 +1,11 @@
 <script>
+//synchronous callback
     function fun(){
-        console.log("heyy")
+        console.log("heyy I'm callback")
     }
     function ch(a){
-        a()
+        a();
+        console.log("Heyyy i'm a higher order function")
     }
     ch(fun)
 </script>

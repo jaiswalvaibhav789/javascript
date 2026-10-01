@@ -19,3 +19,6 @@
     1.fullfill
     2.pending
     3.rejected
+
+    #Dictionary app
+    
